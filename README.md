@@ -70,9 +70,10 @@ who receives your attachment :
     gpg new.png.gpg # decripta il file 
     ```
    
- ## License
+ 
+
+
+
+## License
 This project is licensed under the MIT License - see the [LICENSE file](LICENSE) for details.
-
-
-
 
