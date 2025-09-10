@@ -1,5 +1,6 @@
-# Use GPG on Termux 
-##Privacy “on the go”
+# Use GPG on Termux
+
+## Privacy “on the go”
 Termux turns your Android smartphone into a true Linux console. With GnuPG (gnupg package, included by default), you can generate, manage, and use cryptographic keys directly from the device, without having to use a PC. This allows you to:.
 •	Encrypt attachments before sending, so even if the email is intercepted, the content remains unreadable.
 •	Sign the message, guaranteeing the recipient the sender's authenticity and the integrity of the content.
@@ -39,7 +40,7 @@ With GPG on Termux, security is no longer just for laptops. Take your encryption
 4. **Clone the project repository**:
 
     ```bash
-    git clone https://github.com/chiostro/ obfuscate -file-gpg.git
+    git clone https://github.com/chiostro/obfuscate-file-gpg.git
     cd  obfuscate-file-gpg
     ```
 5. **Run the project** :
@@ -67,3 +68,4 @@ who receives your attachment :
     ```
  ## License
 This project is licensed under the MIT License - see the [LICENSE file](LICENSE) for details.
+
