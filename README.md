@@ -52,7 +52,8 @@ To test script obfuscat.sh as a DEMO,  run script passing parameters [file_to_ob
 
 You will get a new file called AllSIGNED-non-belligerence_pact.pdf.gpg and the original will be deleted for ever. From now only you know the secret inside   the file gpg. Send it as attachment and receiver can decrypt it using gpg  AllSIGNED-non-belligerence_pact.pdf.gpg 
 And a beautiful simple interface will ask receiver to write the passphrase, which must be the same with blank spaces : Tanto gentile e tanto onesta pare
-
+## License
+This project is licensed under the MIT License - see the [LICENSE file](LICENSE) for details.
 ## Commands  for who wants to try directly
 1)	Open Termux App
 With cd (change directory) command go under you dir for example  /storage/emulated/0/Download:
@@ -65,15 +66,11 @@ Run :
    
 who receives your attachment :
 
- ```bash
+    ```bash
     cd /storage/emulated/0/Download
     gpg new.png.gpg # decripta il file 
     ```
    
- 
 
 
-
-## License
-This project is licensed under the MIT License - see the [LICENSE file](LICENSE) for details.
 
