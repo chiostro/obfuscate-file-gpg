@@ -10,13 +10,13 @@ Termux turns your Android smartphone into a true Linux console. With GnuPG (gnup
 - Works completely offline, no paid apps required
 ## Prerequisites (Termux)
 Before installing the project, make sure you have **Termux** installed on your Android device. You can download it from the [Google Play Store](https://play.google.com/store/apps/details?id=com.termux) , but since 2020 it has not been updated or from [Termux GitHub](https://github.com/termux/termux-app).
-##Universal compatibility
+## Universal compatibility
 The OpenPGP format is supported by all major email clients (ProtonMail, Thunderbird, Outlook, Gmail via plugins, etc.). A file encrypted with gpg can be opened by anyone with the corresponding public key, regardless of the operating system.
 The decryption key must obviously be communicated separately, in an equally cryptic manner, perhaps verbally, 
 e.g.1, say your great-grandmother's name + birth year, with a capital first letter, and as passphrase: Maria1890 
 or even better a sentence like the verse after :The slings and arrows of outrageous fortune, Act III, Scene I (who speaks?):
 e.g.2: Or to take arms against a sea of troubles
-##Additional security over simple TLS
+## Additional security over simple TLS
 TLS protects the transmission channel, but not the message once it reaches the recipient's mail server. Encrypting the attachment with GPG:
 •	Only the recipient (who has the private key) can decrypt the file.
 •	The email provider does not have access to the content, even if it suffers a breach.
@@ -43,14 +43,15 @@ With GPG on Termux, security is no longer just for laptops. Take your encryption
     git clone https://github.com/chiostro/obfuscate-file-gpg.git
     cd  obfuscate-file-gpg
     ```
-5. **Run the project** :
+5. **Run the project**:
 To test script obfuscat.sh as a DEMO,  run script passing parameters [file_to_obfuscate Passphrase] 
     
      sh obfuscate.sh AllSIGNED-non-belligerence_pact.pdf  Tanto gentile e tanto onesta pare
 
 You will get a new file called AllSIGNED-non-belligerence_pact.pdf.gpg and the original will be deleted for ever. From now only you know the secret inside   the file gpg. Send it as attachment and receiver can decrypt it using gpg  AllSIGNED-non-belligerence_pact.pdf.gpg 
 And a beautiful simple interface will ask receiver to write the passphrase, which must be the same with blank spaces : Tanto gentile e tanto onesta pare
-##Commands  for who wants to try directly
+
+## Commands  for who wants to try directly
 1)	Open Termux App
 With cd (change directory) command go under you dir for example  /storage/emulated/0/Download:
 Run :
@@ -68,4 +69,5 @@ who receives your attachment :
     ```
  ## License
 This project is licensed under the MIT License - see the [LICENSE file](LICENSE) for details.
+
 
