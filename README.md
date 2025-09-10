@@ -66,11 +66,10 @@ Run :
    
 who receives your attachment :
 
-    ```bash
     cd /storage/emulated/0/Download
     gpg new.png.gpg # decripta il file 
-    ```
    
+
 
 
 
