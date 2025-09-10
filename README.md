@@ -43,7 +43,9 @@ With GPG on Termux, security is no longer just for laptops. Take your encryption
     git clone https://github.com/chiostro/obfuscate-file-gpg.git
     cd  obfuscate-file-gpg
     ```
-5. **Run the project**:
+4. **Run the project**:
+
+   
 To test script obfuscat.sh as a DEMO,  run script passing parameters [file_to_obfuscate Passphrase] 
     
      sh obfuscate.sh AllSIGNED-non-belligerence_pact.pdf  Tanto gentile e tanto onesta pare
@@ -58,10 +60,9 @@ Run :
 
     ```bash
     cd /storage/emulated/0/Download
+    gpg -c new.png # encrypt the file with a new symmetric password that you choose creating new.png.gpg
     ```
-    ```bash
-   gpg -c new.png # encrypt the file with a new symmetric password that you choose creating new.png.gpg
-    ```
+   
 who receives your attachment :
     ```bash
     cd /storage/emulated/0/Download
@@ -69,5 +70,6 @@ who receives your attachment :
     ```
  ## License
 This project is licensed under the MIT License - see the [LICENSE file](LICENSE) for details.
+
 
 
