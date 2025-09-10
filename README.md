@@ -30,8 +30,8 @@ With GPG on Termux, security is no longer just for laptops. Take your encryption
     ```bash
     pkg update && pkg upgrade
     ```
+4. **Let Termux read and write on your folder**:
 
-3. ** Let Termux read and write on your download folder**:
 
     ```bash
     termux-setup-storage
@@ -64,12 +64,15 @@ Run :
     ```
    
 who receives your attachment :
-    ```bash
+
+ ```bash
     cd /storage/emulated/0/Download
     gpg new.png.gpg # decripta il file 
     ```
+   
  ## License
 This project is licensed under the MIT License - see the [LICENSE file](LICENSE) for details.
+
 
 
 
