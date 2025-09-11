@@ -9,7 +9,7 @@ Termux turns your Android smartphone into a true Linux console. With GnuPG (gnup
 - Bash script (`obfuscate.sh`) using GPG
 - Works completely offline, no paid apps required
 ## Prerequisites (Termux)
-Before installing the project, make sure you have **Termux** installed on your Android device. You can download it from the [Google Play Store](https://play.google.com/store/apps/details?id=com.termux) , but since 2020 it has not been updated or from [Termux GitHub](https://github.com/termux/termux-app).
+Before installing the project, make sure you have **Termux** installed on your Android device. You can download it from the [Google Play Store](https://play.google.com/store/apps/details?id=com.termux)  or from [Termux GitHub](https://github.com/termux/termux-app).
 ## Universal compatibility
 The OpenPGP format is supported by all major email clients (ProtonMail, Thunderbird, Outlook, Gmail via plugins, etc.). A file encrypted with gpg can be opened by anyone with the corresponding public key, regardless of the operating system.
 The decryption key must obviously be communicated separately, in an equally cryptic manner, perhaps verbally, 
@@ -69,6 +69,7 @@ who receives your attachment :
     cd /storage/emulated/0/Download
     gpg new.png.gpg # decripta il file 
    
+
 
 
 
