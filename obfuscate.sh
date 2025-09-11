@@ -1,4 +1,5 @@
-# Autor Andrea Noto
+#!/bin/bash
+# Author Andrea Noto
 # Lì mo  9 Sep 2026
 # Syntax obfuscate.sh file passphrase
 #_________________
