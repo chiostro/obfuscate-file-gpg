@@ -40,6 +40,7 @@ With GPG on Termux, security is no longer just for laptops. Take your encryption
 4. **Clone the project repository**:
 
     ```bash
+    pkg install git
     git clone https://github.com/chiostro/obfuscate-file-gpg.git
     cd  obfuscate-file-gpg
     ```
